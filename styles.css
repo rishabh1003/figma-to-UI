@@ -1,0 +1,1090 @@
+@font-face {
+    font-family: nico moji;
+    src: url(./NicoMoji-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Inter&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Saira+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Inter&family=Poppins:wght@200&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 0.57vw;
+    left: 0%;
+    top: 0%;
+}
+
+body{
+  font-family: "nico moji";
+  font-style: normal;
+  font-weight: 400;
+  background: #E7DDCE;
+  
+}
+
+.wrapper{
+  height: auto;
+    position: relative;
+
+}
+
+.section1{
+  height:auto;
+    width:100vw;
+    background-image: url(./image/bgsection1.svg);
+    overflow-y: hidden;
+}
+.nav-item{
+    margin-right: 30px;
+}
+
+#uli li a{
+    color:white;
+    margin-right:40px;
+    font-size: 2rem;
+    margin-top:4px;
+    font-family:nico moji;
+
+}
+
+#uli li a:hover {
+  transform: scale(1.1);
+}
+
+#uli li  button{
+  border-radius: 0.5vw;
+    padding: 0.4vw 0.4vw;
+    background-color: #E7DDCE;
+    border: 1px solid #02020F;
+    width: 9vw;
+    height: 2.5vw;
+    font-size: 1.5rem;
+    margin-top: 4px;
+    font-family: nico moji;
+    margin-right: 2vw;
+    
+}
+
+#uli li  button:hover{
+    background-color: rgb(228, 17, 17);
+    color:white;
+   
+    
+}
+
+
+
+button.navbar-toggler {
+    background-color:#ffffff;
+    height: 30px;
+    width: 30px;
+  }
+
+  button.navbar-toggler .icon {
+    background-color: #000000;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar{
+    background-color: #000000;
+  }
+  
+  .navbar .navbar-toggle .navbar-toggler-icon {
+    color: black;
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .subsection{
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 49vw;
+    position: relative;
+    display: flex;
+  }
+
+  .moon{
+    width: 38vw;
+    height: 41vw;
+    position: absolute;
+    top: 4vw;
+    left: 2vw;
+  }
+
+  .cloud{
+    width: 50vw;
+    height: 17vw;
+    position: absolute;
+    left: -11vw;
+    top: 12vw;
+
+  }
+
+  .content{
+    position: absolute;
+    top: 25vw;
+    left: 30vw;
+
+
+  }
+
+  .content:hover {
+    transform: scale(1.2);
+  }
+
+  .content h1{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9rem;
+    color: #E7DDCE;
+
+  }
+
+
+  .content h3{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: right;
+    color: #E7DDCE;
+
+  }
+
+  .footersection{
+    /* background-color: aqua; */
+    max-width: 109.1vw;
+    height: 21vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+  }
+
+  .footersection img{
+    width: 13vw;
+    margin-right: 4vw;
+    padding-right: 2vw;
+
+    
+  }
+
+  .footersection img:hover {
+    transform: scale(1.3);
+  }
+
+  .section2{
+    height: auto;
+    width:100vw;
+    background-color:  #E7DDCE;
+    position: relative;
+    overflow-y: hidden;
+  }
+  .section2 h1{
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    top: 4vw;
+    right: -6vw;
+
+  }
+
+.box{
+  /* background-color:brown; */
+  
+  margin: 13vw auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  z-index: 1;
+}
+
+.box .boxes{
+  background-color: rgb(0, 0, 0);
+    width: 415px;
+    height: 127px;
+    border-radius: 1vw;
+    margin:8px;
+    display: flex;
+  gap: 3%;
+  justify-content: space-around;
+  align-content: stretch;
+  flex-wrap: wrap;
+
+}
+
+.box .boxes:hover {
+  transform: scale(1.2);
+}
+
+
+
+.boxes .t1{
+display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 1vw;
+
+}
+
+.boxes .t1 .monkey{
+  width: 86px;
+}
+
+.boxes .t1 .t2 {
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.boxes .t1 .t2 h6{
+  font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FFFFFF;
+    
+  
+  
+    color: #FFFFFF;
+}
+
+.boxes .t1 .t2 .t3{
+display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 0.5vw;
+}
+
+.boxes .t1 .t2 .t3 img{
+  width: 23px;
+}
+
+.boxes .t1 .t2 .t3 p{
+  font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+  
+}
+
+
+
+.boxes .vector img{
+  width: 12px;
+    position: relative;
+    top: 52px;
+  
+}
+
+.section2 .halfCloud{
+  position: absolute;
+    top: 6vw;
+    left: 79vw;
+    width: 23vw;
+    height: 20vw;
+}
+
+ .gate-moon {
+  position: absolute;
+    top: 12vw;
+    left: 4vw;
+    width: 24vw;
+    height: 40vw;
+}
+
+ .subsection2 {
+  position: absolute;
+    top: 5vw;
+    left: 24vw;
+    width: 54vw;
+    height: 17vw;
+    /* background-color: aqua; */
+
+}
+.subsection2 h2{
+  position: absolute;
+    top: 0vw;
+    left: 10vw;
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.4rem;
+    color: #000000;
+}
+
+ .subsection2 p{
+  position: absolute;
+    top: 5.6vw;
+    left: 1vw;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    text-align: center;
+    color: #000000;
+}
+
+.hidebox{
+  position: absolute;
+  top: 26vw;
+  left: 13vw;
+  width: 102vw;
+  height: 17vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.hidebox .boxsub{
+  position: relative;
+  background-color: #000000; 
+    border: 1px solid black;
+    width: 27vw;
+    height: 12vw;
+    height: 13vw;
+    border-radius: 1.2vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-end;
+    z-index:1;
+}
+
+.hidebox .boxsub:hover {
+  transform: scale(1.3);
+}
+
+.hbs1{
+  display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1vw;
+    width: 18.8vw;
+    height: 11vw;
+    /* background-color: #FFFFFF; */
+    justify-content: space-evenly;
+}
+
+.hbs1 h5{
+  font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 6rem;
+    color: #FFFFFF;
+    /* background-color: aqua; */
+    width: 19vw;
+    height: 4vw;
+}
+
+.hbs1 p{
+  font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    /* background-color: brown; */
+    width: 19vw;
+    margin-right: -0.6vw;
+    height: 6vw;
+
+}
+.hidebox .boxsub .ninja{
+  width: 6vw;
+    height: 10vw;
+    margin: 1vw auto;
+}
+
+.hbs2 h4{
+  font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.3rem;
+    line-height: 6rem;
+    color: #FFFFFF;
+     /* background-color: aqua;  */
+    width: 21vw;
+    height: 4vw;
+    margin-right:1vw;
+}
+
+.hbs2 p{
+  font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    /* background-color: brown; */
+    width: 19vw;
+    height: 6vw;
+    margin-left: 0.5vw;
+}
+
+.hbs2{
+  /* background-color: white;  */
+  display: flex;
+  height: 13vw;
+  width: 19vw;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+
+}
+.boxsub .turtle{
+  width: 6vw;
+  height: 13vw;
+}
+.boxsub2{
+  position: relative;
+  background-color: #000000; 
+    border: 1px solid black;
+    width: 27vw;
+    height: 12vw;
+    height: 13vw;
+    border-radius: 1.2vw;
+    
+}
+
+
+.boxsub2:hover {
+  transform: scale(1.2);
+}
+
+.hbs3{
+  /* background-color: aqua; */
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+  width: 18vw;
+  height: 11vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hbs3 h4{
+  font-family: 'Nico Moji';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+  /* identical to box height */
+  
+  /* background-color:brown; */
+  color: #FFFFFF;
+  
+}
+
+.hbs3 p{
+  font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    /* background-color: #084298; */
+    color: #FFFFFF;
+
+}
+
+.sdsection{
+  /* background: aqua; */
+    width: 100vw;
+    height: 55vw;
+    position: relative;
+}
+
+.subsection4{
+  width: 100vw;
+    height: 150vw;
+    position: relative;
+}
+
+.launchpadsection{
+  position: absolute;
+    top: 4vw;
+    left: 37vw;
+    width: 38vw;
+    height: 10vw;
+}
+
+.launchpadsection h3{
+font-family: 'Nico Moji';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+  text-align: center;
+  color: #000000;
+}
+
+.launchpadsection p{
+font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  text-align: center;
+  color: #000000;
+  width: 34vw;
+  height: 5vw;
+  margin-left: 3vw;
+}
+
+.moon2{
+position: absolute;
+  width: 54vw;
+  height: 53vw;
+  top: 9vw;
+  left: -17vw;
+}
+
+.cloud2{
+  position: absolute;
+    width: 43vw;
+    height: 47vw;
+    top: -6vw;
+    left: -16vw;
+}
+.half-cloud3{
+  position: absolute;
+    top: 53vw;
+    left: 59vw;
+    width: 50vw;
+    height: 20vw;
+  
+}
+
+
+.lower2{
+display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1vw;
+  width: 74vw;
+  position: absolute;
+  top: 15vw;
+  left: 12vw;
+  height: 70vw;
+  z-index: 1;
+}
+
+.paint1{
+  border-radius: 2vw;
+  width: 36vw;
+}
+
+
+
+.paint2{
+  width: 36vw;
+}
+
+.low-div{
+  height: 38vw;
+  width: 36vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1vw;
+}
+
+.low-box12{
+  height: 17vw;
+  width: 17vw;
+  background: #000000;
+  border-radius: 1.5vw;
+}
+
+.low-box34{
+  height: 17vw;
+  width: 17vw;
+  background: #000000;
+  border-radius: 1.5vw;
+}
+
+.leaf{
+  margin-top: 5.5vw;
+  margin-left: 6.4vw;
+  width: 10.4vw;
+}
+
+.leafP1{
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  color: #FFFFFF;
+  margin-top: -4vw;
+  margin-left: 1vw;
+  overflow-y: hidden;
+
+}
+
+.leafP2{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #FFFFFF;
+  margin-left: 1vw;
+}
+
+.paint3{
+  width: 36vw;
+  border-radius: 2vw;
+}
+
+.subfooter{
+  width: 100vw;
+    height: 34vw;
+    background-color: black;
+    position: absolute;
+    top: 98vw;
+}
+
+.foot1 {
+  width: 33vw;
+  height: 21vw;
+  /* background-color: yellow; */
+  position: absolute;
+  top: 5vw;
+  left: 16vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+  .foot1 p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4rem;
+    line-height: 3.7rem;
+    color: #FFFFFF;
+    width: 33vw;
+}
+.socialicons{
+  width: 25vw;
+    height: 5vw;
+}
+
+.foot1 .socialicons a .icon{
+  background-color: red;
+    border-radius: 2vw;
+    width: 3vw;
+    height: 3vw;
+
+}
+
+.foot1 .socialicons a .icon:hover{
+  transform:scale(1.3,1.3);
+  -webkit-transform:scale(1.3,1.3);
+  -moz-transform:scale(1.3,1.3);
+  background-color: brown;
+  color:#ffffff;
+
+}
+
+.foot1 .socialicons a .icon:hover {
+  transform: scale(1.3);
+}
+ 
+
+
+.foot2{
+position: absolute;
+    top: 6vw;
+    left: 57vw;
+    /* background-color: yellow; */
+    height: 28vw;
+    width: 40vw;
+}
+
+.foot2 .gmoon2{
+width: 17vw;
+    height: 27vw;
+    position: absolute;
+    top: 0vw;
+    left: 5vw;
+
+}
+
+.foot2 .leaf2{
+width: 25vw;
+    height: 20vw;
+    position: absolute;
+    top: 8vw;
+    left: 20vw;
+}
+
+.subfooter .bj{
+  width: 16vw;
+    height: 3vw;
+    position: absolute;
+    top: 29vw;
+    left: 20vw;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: #FFFFFF;
+}
+@media only screen and (max-width: 600px) {
+  .box .boxes{
+    background-color: rgb(0, 0, 0);
+    width: 294px;
+    height: 69px;
+      border-radius: 1vw;
+      margin:8px;
+      display: flex;
+    gap: 3%;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-wrap: wrap;
+  
+  }
+
+  .boxes .t1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 1vw;
+}
+
+.boxes .t1 .monkey {
+  width: 58px;
+}
+
+.boxes .t1 .t2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes .t1 .t2 h6 {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 33px;
+  color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.boxes .t1 .t2 .t3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 0.5vw;
+}
+
+.boxes .t1 .t2 .t3 img {
+  width: 17px;
+}
+
+.boxes .t1 .t2 .t3 p {
+  font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.boxes .vector img {
+  width: 5px;
+    position: relative;
+    top: 31px;
+}
+
+}
+
+@media only screen and (max-width: 983px) {
+
+  .hidebox .boxsub .ninja {
+    width: 5vw;
+    height: 10vw;
+    margin: 1vw auto;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  .box .boxes{
+    background-color: rgb(0, 0, 0);
+    width: 213px;
+    height: 46px;
+      border-radius: 1vw;
+      margin:8px;
+      display: flex;
+    gap: 3%;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-wrap: wrap;
+  
+  }
+
+  .boxes .t1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: stretch;
+    gap: 1vw;
+}
+
+.boxes .t1 .monkey {
+  width: 34px;
+}
+
+.boxes .t1 .t2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes .t1 .t2 h6 {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+    line-height: 25px;
+  color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.boxes .t1 .t2 .t3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 0.5vw;
+}
+
+.boxes .t1 .t2 .t3 img {
+  width: 8px;
+}
+
+.boxes .t1 .t2 .t3 p {
+  font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.boxes .vector img {
+  width: 5px;
+    position: relative;
+    top: 19px;
+}
+
+.nav-item{
+  margin-right: 30px;
+}
+
+#uli li a{
+  color:white;
+  margin-right:40px;
+  font-size: 4.5rem;
+  margin-top:4px;
+  font-family:nico moji;
+
+}
+
+#uli li button {
+  border-radius: 1vw;
+  padding: 0.4vw 0.4vw;
+  background-color: #E7DDCE;
+  border: 1px solid #02020F;
+  width: 14vw;
+  width: 17vw;
+  height: 4.5vw;
+  font-size: 2.8rem;
+  font-family: nico moji;
+  margin-right: 2vw;
+}
+
+.footersection{
+  /* background-color: aqua; */
+  max-width: 109.1vw;
+  height: 21vw;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center;
+}
+
+.footersection img{
+  width: 17vw;
+    margin-right: 1vw;
+    padding-right: 1vw;
+    height: 15vw;
+  
+}
+
+.section2 h1 {
+  font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9rem;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    top: 1vw;
+    right: -6vw;
+}
+.subsection2 {
+  position: absolute;
+    top: 0vw;
+    left: 24vw;
+    width: 54vw;
+    height: 23vw;
+    /* background-color: aqua; */
+    overflow-y: hidden;
+  /* background-color: aqua; */
+}
+
+.subsection2 h2 {
+  position: absolute;
+    top: 0vw;
+    left: 10vw;
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.4rem;
+    color: #000000;
+}
+
+.subsection2 p {
+  position: absolute;
+  top: 5.6vw;
+  left: 1vw;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.2rem;
+  text-align: center;
+  color: #000000;
+  width: 54vw;
+  height: 30vw;
+}
+
+.launchpadsection {
+  position: absolute;
+  top: 0vw;
+  left: 31vw;
+  width: 40vw;
+  height: 12vw;
+}
+
+
+.launchpadsection h3 {
+  font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.4rem;
+    line-height: 8.4rem;
+    text-align: center;
+    color: #000000;
+}
+
+
+.launchpadsection p {
+  font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.4rem;
+    line-height: 3.8rem;
+    text-align: center;
+    color: #000000;
+    width: 35vw;
+    height: 5vw;
+    margin-left: 3vw;
+}
+
+.subfooter {
+  width: 100vw;
+  height: 43vw;
+  background-color: black;
+  position: absolute;
+  top: 98vw;
+}
+
+.foot1 {
+  width: 52vw;
+  height: 26vw;
+  /* background-color: yellow; */
+  position: absolute;
+  top: 7vw;
+  left: 13vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.foot2 {
+  position: absolute;
+  top: 15vw;
+  left: 57vw;
+  /* background-color: yellow; */
+  height: 28vw;
+  width: 40vw;
+}
+
+.subfooter .bj {
+  width: 28vw;
+  height: 5vw;
+  position: absolute;
+  top: 37vw;
+  left: 11vw;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.4rem;
+  /* background-color: aqua; */
+  color: rgb(255, 255, 255);
+}
+
+
+}
